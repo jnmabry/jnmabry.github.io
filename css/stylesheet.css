@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Norwester';
+    src: url('norwester.woff2') format('woff2'),
+         url('norwester.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*#homeHeading {
+    background-color: white;
+    color: black;
+    font-family: 'Norwester';
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 180px;
+    transform: rotate(1deg);
+}*/
