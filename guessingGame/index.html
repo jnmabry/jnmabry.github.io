@@ -1,0 +1,74 @@
+<html>
+
+<head>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script src="https://use.fontawesome.com/ace981c8cf.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,600,700|Pacifico" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <!--Start of Body Contents-->
+
+    <div class="container">
+        <div class="row">
+            <fieldset id="guesses" class="guesses">
+                <legend> Output </legend>
+                <textarea id="output" name="output" rows="5" style="width: 100%;"></textarea>
+            </fieldset>
+        </div>
+        <div class="row text-center tries-container">
+            <h1 id="triesLeft">You Have 10 Tries Left!</h1>
+        </div><br />
+        <div class="row text-center">
+
+            <div class="col-md-4 thumbnail" id="b1">
+                <div class="row">
+                    <input type="text" maxlength="1" class="guess" id="guess1" placeholder="" />
+                </div>
+            </div>
+
+            <div class="col-md-4 thumbnail" id="b2">
+                <input type="text" maxlength="1" class="guess" id="guess2" placeholder="" />
+            </div>
+
+            <div class="col-md-4 thumbnail" id="b3">
+                <input type="text" maxlength="1" class="guess" id="guess3" placeholder="" />
+            </div>
+
+            <div class="startAgain"><input type="button" id="submit" value="submit" /><br /> </div>
+            <br /> <p>If a number does not match that boxs number, and does not match any of the numbers in the sequence, the box should
+                be red</p>
+            <p>If a number matches that boxs number, the box should be green</p>
+            <p>If a number does not match that boxs number, but does match one of the numbers in the sequence, the box should
+                be yellow</p>
+        </div>
+    </div>
+
+
+
+
+    </div>
+    <script src="test.js"></script>
+</body>
+
+</html>

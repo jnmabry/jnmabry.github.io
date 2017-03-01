@@ -1,0 +1,91 @@
+<html>
+
+<head>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="tipCalculator.css" type="text/css">
+
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "43bb414d-4655-42af-beb7-7b491a6c97aa", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row" >
+            <h1 class="text-center">TIP.sy</h1><br />
+        </div>
+        <div class="row" id="calcDiv">
+            <div class=" col-xs-11 col-sm-11 col-md-8 col-lg-7 col-centered" id="calcDiv">
+                <div class="thumbnail text-center form-group">
+                    <h2> Tip Calculator</h2><br />
+
+                    <label for="billCost" id="label"> How Much Was Your Bill?</label>
+                    <input type="text" class="form-control numInputs" id="billCost" placeholder="Enter Cost" maxlength="6"/><br />
+                   
+                    <label for="service" id="label"> How Was Your Service?</label>
+                    <select class="form-control form-control-lg" id="service">
+                        <option id="defaultOption" selected="selected">--Chose an Option--</option>
+                        <option id="outstanding">30% Outstanding</option>
+                        <option id="good">20% Good</option>
+                        <option id="okay">15% It was okay</option>
+                        <option id="bad">10% Bad</option>
+                        <option id="terrible">5% Terrible</option>
+                    </select><br />
+
+                    <label for="peopleSharing" id="label"> How many people are sharing the bill?</label>
+                    <input type="number" class="form-control numInputs" id="peopleSharing" placeholder="Enter Number Sharing"/><br />
+                    <button type="submit" class="btn btn-primary" id="calculate">Calculate Tip</button>
+                    <button type="reset" class="btn btn-primary" id="reset">Reset</button>
+
+                    <div class="row text-center" id="infoDisplay">
+                      
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <h4>Tip Total</h4>
+                            <h3>$0</h3>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <h4>Bill Total</h4>
+                            <h3>$0</h3>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <h4>Bill + Tip</h4>
+                            <h3>$0</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row text-center">
+                <span class='st_facebook_large' displayText='Facebook'></span>
+                <span class='st_twitter_large' displayText='Tweet'></span>
+                <span class='st_email_large' displayText='Email'></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="tipCalculator.js"></script>
+</body>
+
+</html>

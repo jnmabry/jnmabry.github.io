@@ -1,0 +1,33 @@
+.guesses {
+  display: none;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+body{
+    background-color: black;
+}
+.guess{
+    color: black;
+    text-align: center;
+    border: none;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 300px;
+}
+
+p{
+    color: white;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.guess{
+    background-color: transparent;
+}
