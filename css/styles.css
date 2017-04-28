@@ -173,6 +173,10 @@ p {
 
 /*SKILLS SECTION*/
 
+.img-responsive {
+  margin-bottom: 64px;
+}
+
 section {
   
 }
