@@ -18,6 +18,7 @@
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css" rel="stylesheet">
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
 
@@ -70,15 +71,19 @@
     <div class="header-content">
       <div class="header-content-inner">
         <h2>// JOSHUA MABRY //</h2>
-        <div id="homeHeading">
+        <div class="hidden-sm hidden-xs" id="homeHeading">
           <h1>Development</h1>
           <h1>& Design</h1>
         </div>
-        <h3>I am a polyglot programmer specializing in web development using the <br>
+        <div class="hidden-lg hidden-xl hidden-md" id="homeHeading">
+          <h1>Dev <br> +
+          Design</h1>
+        </div>
+        <h3>I am a polyglot programmer specializing in web development using the
             Angular 2 framework and other web technologies.</h3>
         <!--<a href="#about" class="page-scroll arrow-down"></a>-->
       </div>
-      <img class="headphones" src="/img/headphones-opt.png" alt="">
+      <img class="headphones hidden-xs" src="/img/headphones-opt.png" alt="">
     </div>
   </header>
 <!-- ABOUT SECTION -->
@@ -156,7 +161,8 @@
   <section id="portfolio">
     <div class="container">
       <div class="row">
-        <h1 id="projects-heading"> // Projects // </h1>
+        <h1 class="hidden-sm hidden-xs" id="projects-heading"> // Projects // </h1>
+        <h1 class="hidden-lg hidden-md hidden-xl" id="projects-heading">Projects</h1>
       </div>
       <div class="row">
         <div class="col-lg-6 col-sm-6 pull-left">
