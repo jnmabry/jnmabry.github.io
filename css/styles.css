@@ -171,14 +171,26 @@ p {
   transform: scaleX(-1);
 }
 
-/*SKILLS SECTION*/
+/*ABOUT SECTION*/
 
-.img-responsive {
-  margin-bottom: 64px;
+.project {
+  /*padding-top: 20px;*/
+  padding-bottom: 40px;
 }
 
-section {
-  
+.my-image{
+  height: 300px;
+  width: 300px;
+  background-image: url("../img/me.jpg");
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/*SKILLS SECTION*/
+
+#codewars-badge {
+  margin-top: 30px;
 }
 
 /*PORTFOLIO SECTION*/
@@ -186,6 +198,16 @@ section {
   color: black;
   text-align: center;
   margin: -30px 0px 80px 0px;
+}
+
+#svg {
+  background-color: red;
+  position: fixed;
+  top: 0;
+}
+
+#hug-details {
+  margin-top: 50px;
 }
 
 .view-details {
@@ -203,6 +225,20 @@ section {
   /*margin: 20px 80px 30px 80px;*/
   line-height: 35px;
 }
+
+.details-hero-image {
+  background-color: red;
+  height: 350px;
+}
+
+#back {
+  transform: rotate(-90deg);
+}
+
+
+
+
+
 
 button:focus {outline:0;}
 button:hover {background-color: grey;}
@@ -257,15 +293,6 @@ u {
 .btn {
     background-color: white;
     color: black;
-}
-
-.my-image{
-  height: 300px;
-  width: 300px;
-  background-image: url("../img/me.jpg");
-  background-size: cover;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 
 .bg-primary {

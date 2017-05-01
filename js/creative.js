@@ -61,4 +61,16 @@
         }
     });
 
+    $('#hug').click(function(){
+      window.location="hug-details.html";
+    });
+
+    $('#tek-esports').click(function(){
+      console.log("Hey there");
+    });
+
+    $('#hikeit').click(function(){
+      console.log("Hey there");
+    });
+
 })(jQuery); // End of use strict
