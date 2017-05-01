@@ -27,6 +27,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
   },
   "dependencies": {
+    "node-static": "^0.7.9",
     "snapsvg": "^0.5.1"
   }
 }
