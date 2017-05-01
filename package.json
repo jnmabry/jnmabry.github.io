@@ -28,6 +28,10 @@
   },
   "dependencies": {
     "node-static": "^0.7.9",
-    "snapsvg": "^0.5.1"
+    "jquery": "^1.11.3",
+    "magnific-popup": "^1.1.0",
+    "scrollreveal": "^3.1.4",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3"
   }
 }
