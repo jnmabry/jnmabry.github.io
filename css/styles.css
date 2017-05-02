@@ -141,9 +141,13 @@ p {
 /*HEADER*/
 
   header {
-    background-image: none;
+    background-image: url('../img/polygon-background.jpg');
     background-color: black;
     font-family: 'Rubik';
+  }
+
+  header .header-content {
+    top: 53%;
   }
 
   header .header-content .header-content-inner h1 {
@@ -275,6 +279,18 @@ u {
 }
 
 
+@media (max-width: 1440px) {
+.headphones {
+  display: none;  
+  position: absolute;
+  bottom: -385px;
+  left: 4px;
+  z-index: -1;
+  width: 750px;
+  transform: rotate(50deg);
+  transform: scaleX(-1);
+}
+}
 
 
 
