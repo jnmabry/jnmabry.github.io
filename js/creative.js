@@ -70,7 +70,7 @@
     });
 
     $('#hikeit').click(function(){
-      console.log("Hey there");
+      window.location="hikeit-details.html";
     });
 
 })(jQuery); // End of use strict
