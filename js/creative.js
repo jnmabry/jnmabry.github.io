@@ -66,7 +66,7 @@
     });
 
     $('#tek-esports').click(function(){
-      console.log("Hey there");
+      window.location="tekesports-details.html";
     });
 
     $('#hikeit').click(function(){
