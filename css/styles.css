@@ -243,9 +243,16 @@ p {
 /*DETAILS PAGES*/
 .header-block {
   margin-top: 100px;
+  color: black;
 }
 
+.side-text {
+  margin-top: 70px;
+}
 
+.first-project {
+  margin-top: 10px;
+}
 
 
 button:focus {outline:0;}
