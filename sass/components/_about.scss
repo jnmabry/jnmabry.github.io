@@ -1,0 +1,13 @@
+.project {
+    /*padding-top: 20px;*/
+    padding-bottom: 40px;
+  }
+  
+  .my-image{
+    height: 300px;
+    width: 300px;
+    background-image: url("../img/me.jpg");
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }

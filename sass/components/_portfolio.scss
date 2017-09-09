@@ -1,0 +1,40 @@
+#projects-heading {
+    color: black;
+    text-align: center;
+    margin: -30px 0px 80px 0px;
+  }
+  
+  #svg {
+    background-color: red;
+    position: fixed;
+    top: 0;
+  }
+  
+  #hug-details {
+    margin-top: 50px;
+  }
+  
+  .view-details {
+    border-radius: 5px;
+    border-style: none;
+    background-color: black;
+    align-content: center;
+    color: white;
+    font-family: "Roboto Mono";
+    font-weight: 300;
+    font-size: 1em;
+    padding: 0px 15px 0px 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    /*margin: 20px 80px 30px 80px;*/
+    line-height: 35px;
+  }
+  
+  .details-hero-image {
+    background-color: red;
+    height: 350px;
+  }
+  
+  #back {
+    transform: rotate(-90deg);
+  }

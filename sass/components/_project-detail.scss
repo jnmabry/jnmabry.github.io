@@ -1,0 +1,47 @@
+.header-block {
+    margin-top: 100px;
+    color: black;
+  }
+  
+  .side-text {
+    margin-top: 70px;
+  }
+  
+  .first-project {
+    margin-top: 10px;
+  }
+  
+  
+  button:focus {outline:0;}
+  button:hover {background-color: grey;}
+  button:active{background-color: black;}
+  button:visited{background-color: black;}
+  
+  div.container{
+    padding: 0 15px;
+  }
+  
+  u {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  .active {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+  }
+  
+  #about {
+    /*background-color: gra*/
+  }
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 70px solid white;
+    display: block;
+    margin: 40px auto;
+  }
