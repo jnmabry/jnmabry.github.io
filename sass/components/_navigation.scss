@@ -57,3 +57,8 @@
     margin-top: 10px;
   }
   
+  @media (max-width: 767px) {
+    .navbar {
+      margin-bottom: 0px;
+    }
+  }
